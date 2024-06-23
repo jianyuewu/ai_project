@@ -1,0 +1,12 @@
+[submodule "gpu/simulator/src/gpgpu-sim/gpgpu-sim_distribution"]
+	path = gpu/simulator/src/gpgpu-sim/gpgpu-sim_distribution
+	url = https://github.com/gpgpu-sim/gpgpu-sim_distribution.git
+[submodule "gpu/simulator/src/macsim"]
+	path = gpu/simulator/src/macsim
+	url = https://github.com/gthparch/macsim.git
+[submodule "gpu/simulator/src/multi2sim"]
+	path = gpu/simulator/src/multi2sim
+	url = https://github.com/Multi2Sim/multi2sim.git
+[submodule "gpu/simulator/src/gem5"]
+	path = gpu/simulator/src/gem5
+	url = https://github.com/gem5/gem5
