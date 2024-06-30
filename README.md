@@ -2,8 +2,9 @@
 Study with some basic AI knowledge.  
 
 # Recommended Environment Setup  
-We can use Google Colab directly, or simply set up with an Nvidia RTX 4090 for better data security. If we need super high performance with the H800, refer to:  
-1. CPU:  
+We can use Google Colab directly, or simply set up with an Nvidia RTX 4090 for better data security. If we need super high performance with the A100/A800/H800, can refer to:   
+![alt text](gpu/images/8x-a100-node-hw-topo.png)  
+1. CPU:   
     Model: Intel® Xeon® Platinum 8458P Processor  
     Quantity: 2  
 2. Memory:   
@@ -23,7 +24,7 @@ We can use Google Colab directly, or simply set up with an Nvidia RTX 4090 for b
         Capacity: 480 GB  
         Quantity: 2  
 4. GPU: Suitable for heavy computational tasks and machine learning workloads.  
-    Model: NVIDIA H800  
+    Model: NVIDIA A100  
     Quantity: 8  
 5. RAID Controller: Enhances data redundancy and performance.  
     Model: PCIe 4.0 RAID Controller  
@@ -41,7 +42,8 @@ We can use Google Colab directly, or simply set up with an Nvidia RTX 4090 for b
         Quantity: 1  
 
 # Clone code  
-git clone --recurse-submodules -j8 https://github.com/jianywu/ai_project  
+git clone --recurse-submodules -j8 https://github.com/jianywu/ai_project   
 
-# References  
-https://resources.nvidia.com/en-us-tensor-core  
+# References   
+https://resources.nvidia.com/en-us-tensor-core   
+https://arthurchiao.art/blog/gpu-data-sheets/#3-comparison-of-a100a800h100h800910bh200   
